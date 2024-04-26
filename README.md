@@ -8,7 +8,7 @@ Easy package management from a Github repo instead of dealing with annoying pypr
 
 POWERSHELL:
   ```powershell
-  $pythonScriptPath = \"$env:USERPROFILE\imp\main.py\"
+  $pythonScriptPath = "$env:USERPROFILE\imp\main.py"
   New-Alias -Name 'imp' -Value $pythonScriptPath
   ```
 BASH/LINUX:
