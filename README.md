@@ -6,7 +6,7 @@ Easy package management from a Github repo instead of dealing with annoying pypr
 - Run install.py
 - Once it is finished, run these commands
 
-POWERSHELL:
+POWERSHELL/WINDOWS:
   ```powershell
   $pythonScriptPath = "$env:USERPROFILE\imp\main.py"
   New-Alias -Name 'imp' -Value $pythonScriptPath
