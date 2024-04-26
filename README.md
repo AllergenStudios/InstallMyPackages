@@ -4,7 +4,8 @@ Easy package management from a Github repo instead of dealing with annoying pypr
 # How do I make my package work with it?
 
 All you need is a github repository and a requirements.txt.
-Your main python file for your module should be main.py, if its not then you can do --mainfile <the name of your python file if its not main.py>
+Your main python file for your module should be main.py, if its not then you can do 
+```--mainfile <the name of your python file if its not main.py>```
 For instance, if your main python file is mymodule.py it would be
 
 ```imp https://github.com/YourUser/YourRepo/ --mainfile mymodule.py```
