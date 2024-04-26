@@ -17,8 +17,7 @@ For instance, if your main python file is mymodule.py it would be
 
 POWERSHELL/WINDOWS:
   ```powershell
-  $pythonScriptPath = "$env:USERPROFILE\imp\main.py"
-  New-Alias -Name 'imp' -Value $pythonScriptPath
+  New-Alias -Name 'imp' -Value "$env:USERPROFILE\imp\main.py"
   ```
 BASH/LINUX:
   ```bash
